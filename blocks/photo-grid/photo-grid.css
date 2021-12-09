@@ -1,0 +1,17 @@
+.photo-grid {
+/*    border: 1px burlywood solid;  */
+    display: grid;
+    max-width: 100%;
+    margin: 0 48px;
+    grid-template-columns: repeat(auto-fit,minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    gap: 16px;
+    justify-items: stretch;
+  }
+
+@media screen and (max-width: 544px) {
+    .photo-grid {
+        gap: 12px;
+        margin: 0 16px;
+    }
+}

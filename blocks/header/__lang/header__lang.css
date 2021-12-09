@@ -1,0 +1,14 @@
+.header__lang {
+/*    border: 1px pink solid;*/
+    display: flex;
+    justify-content: space-between;
+    min-width: 78px;
+    align-items: flex-end;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 544px) {
+    .header__lang {
+        min-width: 62px;
+    }
+}

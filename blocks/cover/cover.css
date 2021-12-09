@@ -1,0 +1,14 @@
+.cover {
+/*    border: blueviolet 1px solid;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1184px;
+    width: 1184px;
+    max-height: 740px;
+    height: 100%;
+    margin: 0 auto;
+}
+
