@@ -23,7 +23,6 @@
     .footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         max-width: 186px;
         height: 100%;
         margin: 64px 24px 24px 16px;
