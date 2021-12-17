@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 544px) {
     .place {
-        grid-template-columns: minmax(min-content, max-content);
-        grid-template-rows: repeat (auto-fit, minmax(min-content, max-content));
+        grid-template-columns: minmax(min-content, 320px);
+        grid-template-rows: repeat (auto-fit, minmax(min-content, 320px));
         min-width: 320px;
         width: 100%;
         gap: 32px;
